@@ -31,4 +31,4 @@ for user in users.values():
 print(found_user)
 
 for user_id, user_data in users.items():
-    print(f"ID: {user_id}, Name: {user_data['Name']}, Surname: {user_data['Surname']}, Email: {user_data['Email']}, Password: {user_data['Phone Number']}, Phone Number: {user_data['Phone Number']}")
+    print(f"ID: {user_id}, Name: {user_data['Name']}, Surname: {user_data['Surname']}, Email: {user_data['Email']}, Password: {user_data['Password']}, Phone Number: {user_data['Phone Number']}")
