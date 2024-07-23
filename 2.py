@@ -4,7 +4,7 @@ users = {}
 
 count = int(input("Enter count of users: "))
 
-for _ in range(count):
+for i in range(count):
     user_id = int(input("Enter ID: "))
     name = input("Enter name: ")
     surname = input("Enter surname: ")
